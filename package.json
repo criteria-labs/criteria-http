@@ -1,0 +1,29 @@
+{
+  "name": "@criteria/http",
+  "version": "0.1.0",
+  "description": "Typescript utilities for working with HTTP requests and responses",
+  "keywords": [
+    "http"
+  ],
+  "homepage": "https://github.com/criteria-labs/criteria-http",
+  "bugs": {
+    "url": "https://github.com/criteria-labs/criteria-http/issues",
+    "email": "support@criteria.sh"
+  },
+  "license": "MIT",
+  "author": "Criteria Labs Pty Ltd",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/criteria-labs/criteria-http.git"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "rimraf tsconfig.build.tsbuildinfo ./dist"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.5",
+    "typescript": "^5.4.5"
+  }
+}
